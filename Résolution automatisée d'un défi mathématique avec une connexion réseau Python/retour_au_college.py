@@ -6,8 +6,8 @@ import struct
 
 def connect_and_compute():
     # Paramètres de connexion
-    server_ip = 'challenge01.root-me.org'
-    server_port = 52002
+    server_ip = 'adresse_serveur'
+    server_port = numero_port
     
     # Créer une socket TCP/IP
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
